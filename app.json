@@ -1,37 +1,8 @@
 {
-  "name": "Alist v3",
-  "description": "Alist on Heroku",
-  "keywords": ["Alist"],
-  "env": {
-    "ADATABASE": {
-       "description": "数据库类型（sqlite3 / mysql）",
-       "value": "mysql"
-    },
-    "BSQLUSER": {
-       "description": "MySQL 用户名（数据库类型为远程 MySQL 时需要更改）",
-       "value": "root"
-    },
-    "CSQLPASSWORD": {
-       "description": "MySQL 密码（数据库类型为远程 MySQL 时需要更改）",
-       "value": "123456"
-    },
-    "DSQLHOST": {
-       "description": "MySQL 主机地址（数据库类型为远程 MySQL 时需要更改）",
-       "value": "db4free.net"
-    },
-    "ESQLPORT": {
-       "description": "MySQL 端口（数据库类型为远程 MySQL 时需要更改）",
-       "value": "3306"
-    },
-    "FSQLNAME": {
-       "description": "MySQL 数据库名称（数据库类型为远程 MySQL 时需要更改）",
-       "value": "mysqldb"
-    }
-  },
-  "website": "https://github.com/alist-org/alist-heroku",
-  "repository": "https://github.com/alist-org/alist-heroku",
-  "stack": "container",
-  "features": [
-   "runtime-dyno-metadata"
- ]
-}
+   "name": "heroku-docker-nginx-example",
+   "description": "A barebones nginx installation using Docker",
+   "repository": "https://github.com/rjoonas/heroku-docker-nginx-example",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
+   "keywords": ["nginx", "docker", "proxy"],
+   "stack": "container"
+ }
