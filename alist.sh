@@ -37,7 +37,7 @@ cat >/opt/alist/data/config.json <<EOF
     "compress": false
   },
   "max_connections": 0,
-  "tls_insecure_skip_verify": true
+  "tls_insecure_skip_verify": false
   "cache": {
     "expiration": $GEXPIRATION,
     "cleanup_interval": $HCLEANUP_INTERVAL
