@@ -30,5 +30,8 @@
   },
   "website": "https://github.com/alist-org/alist-heroku",
   "repository": "https://github.com/alist-org/alist-heroku",
-  "stack": "container"
+  "stack": "container",
+  "features": [
+   "runtime-dyno-metadata"
+ ]
 }
