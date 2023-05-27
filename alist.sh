@@ -8,7 +8,7 @@ cat >/opt/alist/data/config.json <<EOF
   "port": $PORT,
   "site_url": "",
   "cdn": "",
-  "jwt_secret": "random generated",
+  "jwt_secret": "F3dXK4Or1J1uxlTe",
   "token_expires_in": 48,
   "database": {
       "type": "$ADATABASE",
@@ -39,8 +39,8 @@ cat >/opt/alist/data/config.json <<EOF
   "max_connections": 0,
   "tls_insecure_skip_verify": false
   "cache": {
-    "expiration": $GEXPIRATION,
-    "cleanup_interval": $HCLEANUP_INTERVAL
+    "expiration": 60,
+    "cleanup_interval": 120
   }
 }
 EOF
